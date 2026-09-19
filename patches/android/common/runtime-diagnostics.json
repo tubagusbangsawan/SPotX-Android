@@ -1,0 +1,6 @@
+{
+  "id": "runtime-diagnostics",
+  "enabled": true,
+  "mode": "observe",
+  "hooks": []
+}
