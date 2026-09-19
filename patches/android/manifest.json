@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "targetPackage": "com.spotify.music",
+  "patches": [
+    {
+      "id": "runtime-diagnostics",
+      "status": "stable",
+      "enabledByDefault": true,
+      "description": "Runtime diagnostics and package/version reporting. No APK modification.",
+      "safety": "reversible",
+      "profile": "patches/android/common/runtime-diagnostics.json"
+    },
+    {
+      "id": "ui-experiment",
+      "status": "experimental",
+      "enabledByDefault": false,
+      "description": "Reserved for user-controlled UI experiments.",
+      "safety": "reversible",
+      "profile": "patches/android/common/ui-experiment.json"
+    }
+  ]
+}
